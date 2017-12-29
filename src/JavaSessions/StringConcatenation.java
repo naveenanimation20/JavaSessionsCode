@@ -35,7 +35,11 @@ public class StringConcatenation {
 		long id = 12345;
 		System.out.println("your transaction id is "+ id);
 		
+		char c1 = 'a'; //ASCII Code 97
+		char c2 = 'b'; //98
+		//a-z A-Z 0-9 
 		
+		System.out.println(c1+c2);
 		
 		
 	}

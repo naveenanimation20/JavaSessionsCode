@@ -22,7 +22,7 @@ public class DataTypes {
 		System.out.println(age);
 		System.out.println(i+j);
 		
-		//2. double (8bytes), float(4 bytes)
+		//2. double (8 bytes), float(4 bytes)
 		double d1 = 12.33;
 		double d2 = -12.33;
 		double d3 = 100; //100.00
@@ -51,6 +51,8 @@ public class DataTypes {
 		System.out.println("Hello Testing");
 		System.out.println(s1+s2);
 		
+		float v = (float) 12.33;
+		System.out.println(v);
 		
 	}
 
