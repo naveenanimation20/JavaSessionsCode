@@ -4,7 +4,7 @@ public class StringManipulation {
 
 	public static void main(String[] args) {
 
-		String s = "The rains have started here";
+		String s = "The rains have started here selenium";
 		
 		System.out.println(s.length());
 		
@@ -55,7 +55,6 @@ public class StringManipulation {
 		String firstName1[] = firstName.split(";");
 		for(int i=0; i<firstName1.length; i++){
 			System.out.println(firstName1[i]);
-			
 		}
 		
 		
