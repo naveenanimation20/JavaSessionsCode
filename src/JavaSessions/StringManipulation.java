@@ -15,6 +15,8 @@ public class StringManipulation {
 		System.out.println(s.indexOf('a'));
 		System.out.println(s.indexOf('s'));//8 -- 1st occurrence of s
 		System.out.println(s.indexOf('s', s.indexOf('s')+1));//15 -- 2nd occurrence of s
+		System.out.println(s.indexOf('s', s.indexOf('s', s.indexOf('s')+1)+1));//15 -- 3rd occurrence of s
+
 		
 		System.out.println(s.indexOf("have"));
 		System.out.println(s.indexOf("hello")); //-1
